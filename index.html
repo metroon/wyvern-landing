@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wyvern - Transformamos Ideias em Realidade Digital</title>
+    <meta name="description"
+        content="Equipe especializada em desenvolvimento de software. Não temos medo de projetos desafiadores e entregamos com qualidade sempre.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <img src="logo-wyvern-horizontal-250.png" alt="Wyvern Logo" class="logo-image">
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="#equipe" class="nav-link">Equipe</a></li>
+                    <li><a href="#servicos" class="nav-link">Serviços</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+                <div class="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-content">
+            <div class="container">
+                <h1 class="hero-title">
+                    <span class="hero-title-main">Transformamos Ideias</span>
+                    <span class="hero-title-accent">em Realidade Digital</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Não temos medo de projetos desafiadores. Entregamos com qualidade, sempre.
+                    Sua visão, nossa expertise.
+                </p>
+                <div class="hero-cta">
+                    <a href="#contato" class="btn btn-primary">Vamos conversar sobre seu projeto</a>
+                    <a href="#equipe" class="btn btn-secondary">Conheça nossa equipe</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Role para descobrir</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Sobre Nós</h2>
+                <p class="section-subtitle">Código limpo, resultados extraordinários</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Inovação que move o futuro</h3>
+                    <p>
+                        Somos uma equipe apaixonada por tecnologia, especializada em transformar ideias complexas
+                        em soluções digitais elegantes e eficientes. Com experiência diversificada em desenvolvimento
+                        web, mobile, automação industrial e ciência de dados, oferecemos um portfólio completo de
+                        serviços.
+                    </p>
+                    <p>
+                        Nossa missão é simples: entregar tecnologia de ponta com a qualidade que você merece.
+                        Cada projeto é uma oportunidade de superar expectativas e criar algo verdadeiramente memorável.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <span class="stat-number" data-target="12">0</span>
+                        <span class="stat-label">Especialistas</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-target="50">0</span>
+                        <span class="stat-label">Projetos Entregues</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-target="5">0</span>
+                        <span class="stat-label">Anos de Experiência</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-target="100">0</span>
+                        <span class="stat-label">% Satisfação</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="equipe" class="team">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nossa Equipe</h2>
+                <p class="section-subtitle">Onde a criatividade encontra a tecnologia</p>
+            </div>
+            <div class="team-grid">
+                <!-- Luis Henrique -->
+                <a href="https://www.linkedin.com/in/luishtignacio/" target="_blank" class="linkedin-link"
+                    title="Ver perfil no LinkedIn">
+                    <div class="team-card">
+                        <div class="team-card-image">
+                            <img src="https://media.licdn.com/dms/image/v2/D4D35AQEmT3Lu7lj0hw/profile-framedphoto-shrink_200_200/B4DZdbZCzJG8Ac-/0/1749584981574?e=1750262400&v=beta&t=a5WUs4jcwSbUUDL4_4Qn9sGoY1DHqvpQiJNLUQNTlVc"
+                                alt="Luis Henrique Tassinari Ignacio" class="team-photo">
+                        </div>
+                        <div class="team-card-content">
+                            <div class="team-header">
+                                <h3 class="team-name">Luis Henrique Ignacio</h3>
+
+                                <svg class="linkedin-icon" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                                </svg>
+
+                            </div>
+                            <p class="team-role">Software Engineering Lead</p>
+                            <p class="team-skills">C#.net, VB.net, SQL Server, PostgreSQL</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Tiago Abade -->
+                <a href="https://www.linkedin.com/in/tiagoabadedias/" target="_blank" class="linkedin-link"
+                    title="Ver perfil no LinkedIn">
+                    <div class="team-card">
+                        <div class="team-card-image">
+                            <img src="https://media.licdn.com/dms/image/v2/D4D03AQHYE46OC7SXAQ/profile-displayphoto-shrink_200_200/B4DZVHurwJG4AY-/0/1740665175533?e=1755129600&v=beta&t=xa1-LBjcv5QtN8eopbfzLTLE70jw-TB3ajBq1G3_nFM"
+                                alt="Tiago Abade Dias" class="team-photo">
+                        </div>
+                        <div class="team-card-content">
+                            <div class="team-header">
+                                <h3 class="team-name">Tiago Abade Dias</h3>
+                                <svg class="linkedin-icon" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                                </svg>
+
+                            </div>
+                            <p class="team-role">Senior Software Engineer</p>
+                            <p class="team-skills">Node.js, Java, Spring Boot, NestJS</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Djian Lucca -->
+                <a href="https://www.linkedin.com/in/djianlucca/" target="_blank" class="linkedin-link"
+                    title="Ver perfil no LinkedIn">
+                    <div class="team-card">
+                        <div class="team-card-image">
+                            <img src="https://media.licdn.com/dms/image/v2/D4D03AQE2OBf8WOdK7g/profile-displayphoto-shrink_200_200/B4DZdbCRUOHAAY-/0/1749579012073?e=1755129600&v=beta&t=zlgeTdCpBr2utRD50MNVLnm25jzrQi_2uJI1O_7t3SM"
+                                alt="Djian Lucca Stiegelmaier" class="team-photo">
+                        </div>
+                        <div class="team-card-content">
+                            <div class="team-header">
+                                <h3 class="team-name">Djian Lucca Stiegelmaier</h3>
+
+                                <svg class="linkedin-icon" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                                </svg>
+
+                            </div>
+                            <p class="team-role">Desenvolvedor Front-end Sênior</p>
+                            <p class="team-skills">Angular, React, Vue.js, HTML5, CSS3</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Matheus Pires -->
+                <a href="https://www.linkedin.com/in/matheus-pires-chielle/" target="_blank" class="linkedin-link"
+                    title="Ver perfil no LinkedIn">
+                    <div class="team-card">
+                        <div class="team-card-image">
+                            <img src="https://media.licdn.com/dms/image/v2/C4E03AQEBsISIXPqFTg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1558361039018?e=1755129600&v=beta&t=xD1kii0Vfn7W0hqp-TugLglgy-0syHC7jdYtWegJlzQ"
+                                alt="Matheus Pires Chielle" class="team-photo">
+                        </div>
+                        <div class="team-card-content">
+                            <div class="team-header">
+                                <h3 class="team-name">Matheus Pires Chielle</h3>
+
+                                <svg class="linkedin-icon" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                                </svg>
+
+                            </div>
+                            <p class="team-role">Back-end Developer</p>
+                            <p class="team-skills">C#.net, VB.net, Node.js</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- João Vitor -->
+                <a href="https://www.linkedin.com/in/mrjaovitor/" target="_blank" class="linkedin-link"
+                    title="Ver perfil no LinkedIn">
+                    <div class="team-card">
+                        <div class="team-card-image">
+                            <img src="https://media.licdn.com/dms/image/v2/D4D35AQFUG6icdjZ52g/profile-framedphoto-shrink_200_200/B4DZdcWfb4HMAY-/0/1749601089635?e=1750262400&v=beta&t=4J8ECVns_hfi8KWewwpoUrqADGUb8UttcyhVTPjbjkk"
+                                alt="João Vitor Correa Da Rosa" class="team-photo">
+                        </div>
+                        <div class="team-card-content">
+                            <div class="team-header">
+                                <h3 class="team-name">João Vitor C. Da Rosa</h3>
+
+                                <svg class="linkedin-icon" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                                </svg>
+
+                            </div>
+                            <p class="team-role">Frontend Web Developer</p>
+                            <p class="team-skills">TypeScript, Vue.js, React, Angular</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Guilherme Haack -->
+                <a href="https://www.linkedin.com/in/guilherme-haack/" target="_blank" class="linkedin-link"
+                    title="Ver perfil no LinkedIn">
+                    <div class="team-card">
+                        <div class="team-card-image">
+                            <img src="https://media.licdn.com/dms/image/v2/D4D03AQFavL5qgIlb9w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1725559700339?e=1755129600&v=beta&t=ekVzSoAy9W1NZNM1frBH-PFbMtS28Dd6XbH0TTkmfPI"
+                                alt="Guilherme Haack" class="team-photo">
+                        </div>
+                        <div class="team-card-content">
+                            <div class="team-header">
+                                <h3 class="team-name">Guilherme Haack</h3>
+
+                                <svg class="linkedin-icon" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                                </svg>
+
+                            </div>
+                            <p class="team-role">Frontend Web Developer</p>
+                            <p class="team-skills">Angular, React.js, Nest.js, Unreal</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Natan Valim -->
+                <a href="https://www.linkedin.com/in/natan-valim-650686208/" target="_blank" class="linkedin-link"
+                    title="Ver perfil no LinkedIn">
+                    <div class="team-card">
+                        <div class="team-card-image">
+                            <img src="https://media.licdn.com/dms/image/v2/D4D03AQGCiyFFRWZUZg/profile-displayphoto-shrink_200_200/B4DZbP28bRG0AY-/0/1747244010424?e=1755129600&v=beta&t=Cd_mkt5l1f5yHiQeQJhyfD8fvCQq5Ouk4ohvYISu7_4"
+                                alt="Natan Valim" class="team-photo">
+                        </div>
+                        <div class="team-card-content">
+                            <div class="team-header">
+                                <h3 class="team-name">Natan Valim</h3>
+
+                                <svg class="linkedin-icon" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                                </svg>
+
+                            </div>
+                            <p class="team-role">Desenvolvedor Flutter</p>
+                            <p class="team-skills">Flutter, Android, iOS, Mobile</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Wagner Magnus -->
+                <a href="https://www.linkedin.com/in/wagnermagnus/" target="_blank" class="linkedin-link"
+                    title="Ver perfil no LinkedIn">
+                    <div class="team-card">
+                        <div class="team-card-image">
+                            <img src="https://media.licdn.com/dms/image/v2/C4E03AQFEFo34UzBXTw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1638548326938?e=1755129600&v=beta&t=p_uDXwgQqE2l4lUXmebFstWykIecLt9oMndR_ysHlTQ"
+                                alt="Wagner Magnus" class="team-photo">
+                        </div>
+                        <div class="team-card-content">
+                            <div class="team-header">
+                                <h3 class="team-name">Wagner Magnus</h3>
+
+                                <svg class="linkedin-icon" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                                </svg>
+
+                            </div>
+                            <p class="team-role">Desenvolvedor Flutter</p>
+                            <p class="team-skills">Flutter, Android, iOS, Mobile</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Filipe Fraga -->
+                <a href="https://www.linkedin.com/in/filipe-fraga-901915236/" target="_blank" class="linkedin-link"
+                    title="Ver perfil no LinkedIn">
+                    <div class="team-card">
+                        <div class="team-card-image">
+                            <img src="https://media.licdn.com/dms/image/v2/C4E03AQHu5fdDtRnvQQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1649166305512?e=1755129600&v=beta&t=ZaByYmLex2BSia-wLfVxKUfVfZdHM_wSZveBc9UknMM"
+                                alt="Filipe Fraga" class="team-photo">
+                        </div>
+                        <div class="team-card-content">
+                            <div class="team-header">
+                                <h3 class="team-name">Filipe Fraga</h3>
+
+                                <svg class="linkedin-icon" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                                </svg>
+
+                            </div>
+                            <p class="team-role">UI/UX</p>
+                            <p class="team-skills">PLC, SCADA, Automação, IoT</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Rafael Diniz -->
+                <a href="https://www.linkedin.com/in/rafael-dinstmann-diniz/" target="_blank" class="linkedin-link"
+                    title="Ver perfil no LinkedIn">
+                    <div class="team-card">
+                        <div class="team-card-image">
+                            <img src="https://media.licdn.com/dms/image/v2/D4D35AQHe6njooLlS5Q/profile-framedphoto-shrink_200_200/B4DZdcyS8ZHAAc-/0/1749608378436?e=1750262400&v=beta&t=gRh9BuZN0YMbFSyNj9eLPm9rDGck1NkJ1EMCEaUSaqA"
+                                alt="Rafael Dinstmann Diniz" class="team-photo">
+                        </div>
+                        <div class="team-card-content">
+                            <div class="team-header">
+                                <h3 class="team-name">Rafael Dinstmann Diniz</h3>
+
+                                <svg class="linkedin-icon" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                                </svg>
+
+                            </div>
+                            <p class="team-role">CTO - Desenvolvedor de Software</p>
+                            <p class="team-skills">Full-stack, Arquitetura, Analytics</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Lucas Rodrigues -->
+                <a href="https://www.linkedin.com/in/lucasrpa/" target="_blank" class="linkedin-link"
+                    title="Ver perfil no LinkedIn">
+                    <div class="team-card">
+                        <div class="team-card-image">
+                            <img src="https://media.licdn.com/dms/image/v2/C5603AQGvdiwPkGGuyA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1621865749739?e=1755129600&v=beta&t=N5FHeNHr02wlUkvOmgVe5nkcyVz8L9dRw7Dp7VKfn3M"
+                                alt="Lucas Rodrigues Pereira Alves" class="team-photo">
+                        </div>
+                        <div class="team-card-content">
+                            <div class="team-header">
+                                <h3 class="team-name">Lucas R. P. de Almeida</h3>
+
+                                <svg class="linkedin-icon" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                                </svg>
+
+                            </div>
+                            <p class="team-role">Produto / PM / PO</p>
+                            <p class="team-skills">Metodologia ageis</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Taiane Pinheiro -->
+                <a href="https://www.linkedin.com/in/taiane-pinheiro-067689275/" target="_blank" class="linkedin-link"
+                    title="Ver perfil no LinkedIn">
+                    <div class="team-card">
+                        <div class="team-card-image">
+                            <img src="https://media.licdn.com/dms/image/v2/D5603AQH2weDm8oTYmg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1683302510536?e=1755129600&v=beta&t=JiAD1u56QSQTMz_dsPd0hoHErsyiR8p5zlYO-rbT8yc"
+                                alt="Taiane Pinheiro" class="team-photo">
+                        </div>
+                        <div class="team-card-content">
+                            <div class="team-header">
+                                <h3 class="team-name">Taiane Pinheiro</h3>
+
+                                <svg class="linkedin-icon" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                                </svg>
+
+                            </div>
+                            <p class="team-role">Suporte / QA</p>
+                            <p class="team-skills">Frontend, UX, Desenvolvimento Web</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicos" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nossos Serviços</h2>
+                <p class="section-subtitle">Soluções que escalam com seu negócio</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🌐</div>
+                    <h3>Desenvolvimento Web</h3>
+                    <p>Sites e aplicações web modernas, responsivas e otimizadas para performance.</p>
+                    <ul>
+                        <li>React, Angular, Vue.js</li>
+                        <li>Node.js, .NET, Java</li>
+                        <li>APIs RESTful e GraphQL</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>Desenvolvimento Mobile</h3>
+                    <p>Aplicativos nativos e híbridos para iOS e Android com excelente UX.</p>
+                    <ul>
+                        <li>Flutter</li>
+                        <li>React Native</li>
+                        <li>Desenvolvimento Nativo</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🏭</div>
+                    <h3>Automação Industrial</h3>
+                    <p>Soluções de automação para otimizar processos industriais e aumentar eficiência.</p>
+                    <ul>
+                        <li>Programação de CLPs</li>
+                        <li>Sistemas SCADA</li>
+                        <li>IoT Industrial</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📊</div>
+                    <h3>Ciência de Dados</h3>
+                    <p>Análise de dados e machine learning para insights estratégicos.</p>
+                    <ul>
+                        <li>Python, R</li>
+                        <li>Machine Learning</li>
+                        <li>Business Intelligence</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Por que nos escolher?</h2>
+                <p class="section-subtitle">Experiência que você pode confiar</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Entrega Ágil</h3>
+                    <p>Metodologias ágeis para entregas rápidas e iterativas, sempre alinhadas com suas necessidades.
+                    </p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Foco na Qualidade</h3>
+                    <p>Código limpo, testes automatizados e revisões rigorosas garantem a excelência de cada entrega.
+                    </p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🚀</div>
+                    <h3>Tecnologia de Ponta</h3>
+                    <p>Sempre atualizados com as últimas tecnologias e melhores práticas do mercado.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🤝</div>
+                    <h3>Parceria Verdadeira</h3>
+                    <p>Não somos apenas fornecedores, somos parceiros comprometidos com o seu sucesso.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contato" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Vamos conversar?</h2>
+                <p class="section-subtitle">Pronto para transformar sua ideia em realidade?</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Entre em contato</h3>
+                    <p>Estamos prontos para ouvir sobre seu projeto e mostrar como podemos ajudar a alcançar seus
+                        objetivos.</p>
+                </div>
+                <div class="contact-cta">
+                    <a href="mailto:contato@wyvern.dev" class="btn btn-primary btn-large">
+                        Solicitar Orçamento
+                    </a>
+                    <p class="contact-note">Resposta em até 24 horas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-bran" <h3>Wyvern</h3>
+                    <p>Transformamos ideias em realidade digital</p>
+                </div>
+                <div class=" footer-links">
+                    <div class="footer-section">
+                        <h4>Navegação</h4>
+                        <ul>
+                            <li><a href="#sobre">Sobre</a></li>
+                            <li><a href="#equipe">Equipe</a></li>
+                            <li><a href="#servicos">Serviços</a></li>
+                            <li><a href="#contato">Contato</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Serviços</h4>
+                        <ul>
+                            <li>Desenvolvimento Web</li>
+                            <li>Desenvolvimento Mobile</li>
+                            <li>Automação Industrial</li>
+                            <li>Ciência de Dados</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Wyvern. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
